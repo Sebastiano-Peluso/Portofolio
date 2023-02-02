@@ -11,7 +11,8 @@ password.addEventListener('textInput', pass_Verify);
 
 
 
-function validated() {
+function validated(e) {
+    e.preventDefault();
     if (user.value.length < 9) {
         user.style.border = "1px solid red";
         user_error.style.display = "block";
