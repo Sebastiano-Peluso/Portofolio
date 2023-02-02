@@ -68,23 +68,22 @@ display: block;
     text-align: center;
 }
 
-.article1 >  p{
-    float: left;
-    width: 400px;
-    height: 150px;
-    font-size: x-large;
-    text-align: center;
-    padding-left: 20%;
+.article > .slide_e > iframe{
+    width: 700px;
+    height: 600px;
 }
 
-.article2 > p{
-    float: right;
-    width: 350px;
-    height: 150px;
-    font-size: x-large;
-    padding-right: 8%;
-    padding-left: 75%;
-    text-align: center;
+.article1 >  p{
     
+    float: left;
+    width: 570px;
+    height: 150px;
+    font-size: 34px;
+    text-align: center;
+    padding-left: 8%;
+}
+
+.email{
+    font-size: 34px;
 }
 
