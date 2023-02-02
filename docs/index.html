@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="icon" href="src\img\favicon.jpg" type="image/png">
+    <link rel="stylesheet" href="src\main.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Login</h1>
+        <form class="login_form" method="post" action="dashboard.html" name="form" onsubmit="return validated()">
+            <div class="font">User</div>
+            <input type="text" name="user">
+            <div id="user_error">Compila questo campo</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Compila questo campo</div>
+            <button type="submit">Login</button>
+            
+
+        </form>
+    </div>
+    <script src="src\main.js"></script>
+</body>
+</html>
