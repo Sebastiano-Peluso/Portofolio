@@ -5,6 +5,7 @@ ul {
     text-align: left;
     overflow: hidden;
     background-color: red;
+    position: sticky;
 }
 
 li {
