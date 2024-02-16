@@ -1,7 +1,7 @@
 <script>
 
     
-
+    import sicurezzainformatica from '$lib/img/sicurezzainformatica.webp';
     
 
 
@@ -42,7 +42,7 @@
 
     <div id="boxRev" class="box">
 
-        <img src="src\lib\img\sicurezzainformatica.webp" id="IMG3" alt="sicurezzaInfo">
+        <img src={sicurezzainformatica} id="IMG3" alt="sicurezzaInfo">
 
         <div class="descrizione">
             <h2>Informatica</h2>

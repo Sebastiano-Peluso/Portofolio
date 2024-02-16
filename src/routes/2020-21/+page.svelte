@@ -1,7 +1,7 @@
 <script>
 
     
-
+    import informatica_Portfolio from '$lib/img/informatica_Portfolio.jpg';
     
 
 
@@ -86,7 +86,7 @@
 
         <div id=5 class="box">
 
-            <img src="src\lib\img\informatica_Portfolio.jpg" id="IMG3" alt="raccomandazioniCOVID19">
+            <img src={informatica_Portfolio} id="IMG3" alt="raccomandazioniCOVID19">
     
             <div class="descrizione">
                 <h2>Informatica</h2>

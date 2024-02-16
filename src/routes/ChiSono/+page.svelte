@@ -1,5 +1,7 @@
 
 <script>
+    
+    import profilo from '$lib/img/avatar.jpg';
 
 </script>
 
@@ -13,7 +15,7 @@
     
 
     <div class="foto">
-        <img src="src\lib\img\avatar.jpg" alt="profilo">
+        <img src={profilo} alt="profilo">
     </div>
     
     <div class="descrizione">

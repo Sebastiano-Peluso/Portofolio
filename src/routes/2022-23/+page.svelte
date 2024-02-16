@@ -2,7 +2,7 @@
 
     
 
-    
+import accessoAabusivo from '$lib/img/accesso-a-abusivo.png';
 
 
 </script>
@@ -17,7 +17,7 @@
 
    <div  class="box" >
 
-    <img src="src\lib\img\accesso-a-abusivo.png" alt="">
+    <img src={accessoAabusivo} alt="">
 
         <div class="descrizione">
             

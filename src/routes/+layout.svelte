@@ -3,9 +3,9 @@
 
     import Header from "../lib/components/Header.svelte";
 
-    import github from '$lib/img/github.svg';
+    
 
-    let VERSION_SPFTWARE = " 0.1.0";
+    let VERSION_SOFTWARE = " 0.1.1";
     
 
     
@@ -24,7 +24,7 @@
 
 <footer>
 
-    <p>Sono contattabile all'indirizzo email : <a href="mailto:sebastiano.peluso@istitutoagnelli.it">sebastiano.peluso@istitutoagnelli.it</a> per il codice sorgente <a target="_blank" href="https://github.com/Sebastiano-Peluso/Portofolio">GITHUB</a>  ( v{VERSION_SPFTWARE} ) </p>
+    <p>Sono contattabile all'indirizzo email : <a href="mailto:sebastiano.peluso@istitutoagnelli.it">sebastiano.peluso@istitutoagnelli.it</a> per il codice sorgente <a target="_blank" href="https://github.com/Sebastiano-Peluso/Portofolio">GITHUB</a>  ( v{VERSION_SOFTWARE} ) </p>
     
 </footer>
 
