@@ -33,14 +33,22 @@
             <a href="/">
             <span class="material-symbols-outlined">
                 home
-                </span>
-
+            </span>
             Home
             </a>
         
         </div>
 
-        <button class="item dropdown" on:click={change}>I miei progetti
+        <div class="item">
+            <div class="center">
+                <div class="option"><a href="/2020-21/">2020/21</a></div>
+                <div class="option"><a href="/2021-22/">2021/22</a></div>
+                <div class="option"><a href="/2022-23/">2022/23</a></div>
+                <div class="option"><a href="/2023-24/">2023/24</a></div>
+            </div>
+        </div>
+
+<!--         <button class="item dropdown" on:click={change}>I miei progetti
         
             {#if open == false}
 
@@ -55,7 +63,7 @@
             {/if}
 
 
-        </button>
+        </button> -->
 
 
 
@@ -65,9 +73,7 @@
                     <span class="material-symbols-outlined">
                     account_circle
                     </span>
-                    
                     Chi Sono
-
                 </a>
 
 
@@ -80,7 +86,7 @@
 
 </div>
 
-{#if open }
+<!-- {#if open }
 <div class="dettagli">
     <div class="option"><a href="/2023-24/">2023/24</a></div>
     <div class="option"><a href="/2022-23/">2022/23</a></div>
@@ -88,16 +94,31 @@
     <div class="option"><a href="/2020-21/">2020/21</a></div>
 </div>
 
-{/if}
+{/if} -->
 
 
 
 
 <style>
 
+:global(body){
+        padding: 0;
+        margin: 0;
+    }
+
 @media (min-width: 480px){
 
-    .dettagli{
+    .nav > ul > .item > .center{
+        display: flex;
+        flex-direction: row;
+        
+
+        column-gap: 10px;
+        
+        
+    }
+
+/*     .dettagli{
         
         
         position: absolute;
@@ -114,23 +135,25 @@
         text-align: center;
 
         
-    }
+    } */
 
-    .dettagli > .option{
+    .center > .option{
         display: flex;
         flex-direction: column;
-        font-size: 20px;
+        font-size: 21px;
         line-height: 4vh;
-    }
-
-    .dettagli > .option:hover{
-        cursor: pointer;
-
-        background-color: #023e7d;
+        width: 100%;
         
 
+        
+    }
+
+    .center > .option:hover{
+        cursor: pointer;
+        
         transition: 1s;
         text-decoration: none;
+        
         
     }
 
@@ -140,24 +163,20 @@
     }
 
     .option > a:hover{
-        color: white;
+        color: orangered;
+
+        
+        
     }
 
-    .dropdown{
+/*     .dropdown{
         display: flex;
         flex-direction: row;
 
         border: none;
-    }
+    } */
 
     .nav{
-        
-        
-        
-        margin-top: -20px;
-        margin-left: -8px;
-        margin-right: -8px;
-        
         position: sticky;
         top: 0;
         background-color: #023e7d;
@@ -191,13 +210,11 @@
 
     .item > a{
         text-decoration: none;
-
         align-items: center;
-
         column-gap: 10px;
         display: flex;
-
         color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 }
@@ -205,7 +222,7 @@
 /********MOBILE****VERSION********/
 
 @media (max-width: 480px){
-    .dettagli{
+/*     .dettagli{
         
         
         position: absolute;
@@ -225,7 +242,7 @@
 
         
     }
-
+ */
     .dettagli > .option{
         display: flex;
         flex-direction: column;
