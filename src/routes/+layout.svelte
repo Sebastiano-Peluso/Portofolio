@@ -5,7 +5,7 @@
 
     
 
-    let VERSION_SOFTWARE = " 0.1.4";
+    let VERSION_SOFTWARE = " 0.1.8";
     
 
     
@@ -43,7 +43,8 @@
        
     }
 
-    main{
+    @media(min-width:480px){
+        main{
         width: 100%;
         margin: auto;
         
@@ -71,6 +72,42 @@
         color: orangered;
         text-decoration: none;
     }
+
+    }
+
+    @media(max-width:480px){
+        main{
+        width: 100%;
+        margin: auto;
+        
+        text-align: center;
+        }
+
+        footer{
+            
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: row;
+            margin: auto;
+            background-color: #023e7d;
+            color: white;
+            font-size: 16px;
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-shadow: 2px 2px 20px 4px #023e7d;
+        }
+
+
+
+        footer > p > a{
+            color: orangered;
+            text-decoration: none;
+        }
+    }
+
+    
 </style>
 
 

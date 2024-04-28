@@ -35,9 +35,8 @@
 
 <style>
 
-
-
-    .container{
+    @media(min-width:480px){
+        .container{
         display: flex;
         flex-direction: column;
         margin-top: 4%;
@@ -91,6 +90,76 @@
     .box > p{
         font-size: 26px;
     }
+
+    }
+
+
+
+    /**MOBILE*/
+
+    @media(max-width:480px){
+        .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+        
+        
+        
+        }
+
+        .foto{
+            
+            margin: auto;
+            
+        }
+
+        .foto > img{
+            border-radius: 20px;
+            box-shadow: 4px 2px 30px 2px #023e7d;
+            
+
+        }
+
+        .descrizione{
+            display: flex;
+            flex-direction: row;
+            
+            
+            width: 100%;
+            margin: auto;
+
+            column-gap: 4vh;
+            
+            
+            
+        }
+
+        
+
+        .descrizione > .box{
+            width: 80%;
+            margin: auto;
+            padding: 4px;
+            
+            text-align: justify;
+        }
+
+        .box > h2{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            
+            font-size: 40px;
+        }
+
+        .box > p{
+            font-size: 26px;
+        }
+
+
+    }
+
+
+
 
 </style>
 

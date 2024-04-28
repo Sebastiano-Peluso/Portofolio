@@ -22,13 +22,13 @@
             allowfullscreen="true" 
             mozallowfullscreen="true" 
             webkitallowfullscreen="true">
-        </iframe>
+            </iframe>
 
-        <div class="descrizione">
-            <h2>Argomento trattato con la docente Giannatasio Maura</h2>
-            <p>Ho raccolto tutti gli argomenti fatti con la Professoressa Muara Giannatasio.</p>
-            <p>In particolare come ultimo argomento io come persona che ha lottato contro la mafia ho parlato di <a target="_blank" href="https://it.wikipedia.org/wiki/Giuseppe_Fava">Giuseppe Fava</a></p>
-        </div>
+            <div class="descrizione">
+                <h2>Argomento trattato con la docente Giannatasio Maura</h2>
+                <p>Ho raccolto tutti gli argomenti fatti con la Professoressa Muara Giannatasio.</p>
+                <p>In particolare come ultimo argomento io come persona che ha lottato contro la mafia ho parlato di <a target="_blank" href="https://it.wikipedia.org/wiki/Giuseppe_Fava">Giuseppe Fava</a></p>
+            </div>
             
         </div>
 
@@ -113,6 +113,70 @@
         }
     }
 
+
+    @media(max-width:480px){
+
+        .article{
+
+        margin: auto;
+        
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4%;
+
+
+
+
+        }
+
+        .article > h1{
+        background: linear-gradient(to right, #e6f44b, #dd7f0d,#a10be1, #b9d617);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        }
+
+        #title{
+        font-size: 90px;
+        font-family: 'Dancing Script', cursive;
+        }
+
+        hr{
+        width: 100%;
+
+        border: 1px solid black;
+        }
+
+        .box{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        column-gap: 4vh;
+        justify-content: center;
+        }
+
+        .box > iframe{
+            width: 90%;
+            height: 330px;
+            margin: auto;
+        }
+
+        .box > .descrizione{
+            width: 90%;
+            margin: auto;
+        }
+
+        .descrizione > p > a{
+        color: orangered;
+        text-decoration: none;
+        }
+
+        .descrizione > p{
+        text-align: justify;
+        }
+
+    }
     
 
 

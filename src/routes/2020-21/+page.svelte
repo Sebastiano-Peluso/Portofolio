@@ -188,6 +188,82 @@
     }
 
 
+    @media(max-width:480px){
+
+        .article{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4%;
+            
+            
+            
+        }
+
+    
+
+
+        #IMG3{
+            
+            height: 400px;
+        }
+
+        #IMG4{
+            height: 460px;
+        }
+
+
+    .article > .box{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+
+
+
+
+
+    .box > .descrizione{
+        text-align: justify;
+        
+        font-size: 26px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .box > img{
+        width: 100%;
+        height: 340px;
+        border-radius: 10px;
+        margin: auto;
+        
+    }
+
+    h1{
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    hr{
+        width: 90%;
+        
+        border: 1px solid black;
+    }
+
+
+    #libera{
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        border-radius: 20px;
+        
+    }
+
+    }
+
+
     
 
 

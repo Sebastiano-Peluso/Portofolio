@@ -131,6 +131,66 @@ import accessoAabusivo from '$lib/img/accesso-a-abusivo.png';
 
     }
 
+    @media(max-width:480px){
+
+        .article{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4%;
+            
+            
+            
+        }
+
+        .box > iframe{
+            width: 100%;
+            margin: auto;
+        }
+
+
+        .article > .box{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+
+        }
+
+
+
+
+
+
+        .box > .descrizione{
+        text-align: justify;
+
+        font-size: 26px;
+        width: 90%;
+        margin: auto;
+        }
+
+        .box > img{
+        width: 100%;
+        height: 340px;
+        border-radius: 10px;
+        margin: auto;
+
+        }
+
+        h1{
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+
+        }
+
+        hr{
+        width: 90%;
+
+        border: 1px solid black;
+        }
+
+    }
+
 
     
 

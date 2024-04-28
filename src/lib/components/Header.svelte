@@ -5,10 +5,6 @@
     function change() {
 
         open = !open;
-
-        
-
-        
         
     }
 
@@ -29,16 +25,13 @@
 <div class="nav">
     <ul>
         <div class="item">
-
             <a href="/">
             <span class="material-symbols-outlined">
                 home
             </span>
             Home
             </a>
-        
         </div>
-
         <div class="item">
             <div class="center">
                 <div class="option"><a href="/2020-21/">2020/21</a></div>
@@ -47,26 +40,17 @@
                 <div class="option"><a href="/2023-24/">2023/24</a></div>
             </div>
         </div>
-
-<!--         <button class="item dropdown" on:click={change}>I miei progetti
-        
-            {#if open == false}
-
-                <span class="material-symbols-outlined">
-                expand_more
-                </span>
-            {:else}
-                <span class="material-symbols-outlined">
-                expand_Less
-                </span>
-
-            {/if}
-
-
-        </button> -->
-
-
-
+            <!--<button class="item dropdown" on:click={change}>I miei progetti
+                {#if open == false}
+                    <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+                {:else}
+                    <span class="material-symbols-outlined">
+                    expand_Less
+                    </span>
+                {/if}
+            </button> -->
             <div class="item">
 
                 <a href="/ChiSono">
@@ -75,13 +59,7 @@
                     </span>
                     Chi Sono
                 </a>
-
-
             </div>
-
-
-        
-        
     </ul>
 
 </div>
@@ -180,6 +158,7 @@
         position: sticky;
         top: 0;
         background-color: #023e7d;
+        
     }
 
     ul{
@@ -187,7 +166,7 @@
         flex-direction: row;
         list-style: none;
         justify-content: space-around;
-        position: relative;
+        
 
     }
 
@@ -223,26 +202,20 @@
 
 @media (max-width: 480px){
 /*     .dettagli{
-        
-        
         position: absolute;
         background-color: white;
         display: flex;
         flex-direction: column;
-        
         border-radius: 6px;
         box-shadow: 2px 4px 10px  black;
         margin-left: 19vh;
         margin-top: 70px;
-
         width: 22%;
         text-align: center;
         background-size: contain;
         contain: content;
-
-        
     }
- */
+ 
     .dettagli > .option{
         display: flex;
         flex-direction: column;
@@ -252,23 +225,11 @@
 
     .dettagli > .option:hover{
         cursor: pointer;
-
         background-color: #023e7d;
-        
-
         transition: 1s;
         text-decoration: none;
-        
     }
-
-    .option > a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .option > a:hover{
-        color: white;
-    }
+    
 
     .dropdown{
         display: flex;
@@ -276,15 +237,38 @@
 
         border: none;
     }
+    
+    
+    */
+
+    .option > a{
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .center{
+        
+    }
+
+    .center > .option{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        
+        
+        
+
+        
+    }
+
+    .option > a:hover{
+        color: orangered;
+    }
+
+
 
     .nav{
-        
-        
-        
-        margin-top: -20px;
-        margin-left: -8px;
-        margin-right: -8px;
-        
         position: sticky;
         top: 0;
         background-color: #023e7d;
@@ -294,23 +278,23 @@
         display: flex;
         flex-direction: row;
         list-style: none;
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
         column-gap: 10px;
+        margin: 14px;
     }
 
     ul > .item{
         
-        padding: 10px;
+        padding: 8px;
         border-radius: 6px;
         font-size: 15px;
-        width: 30%;
-        background-size: contain;
+        text-align: center;
+        
         background-color: white;
         
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        
         
     }
 
@@ -320,12 +304,8 @@
 
     .item > a{
         text-decoration: none;
-
-        align-items: center;
-
+        font-size: 34px;
         column-gap: 10px;
-        display: flex;
-
         color: black;
     }
 

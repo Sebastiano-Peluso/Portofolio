@@ -23,8 +23,8 @@
     height="340" 
     allowfullscreen="true" 
     mozallowfullscreen="true" 
-    webkitallowfullscreen="true">
-</iframe>
+    webkitallowfullscreen="true"></iframe>
+    
 
         <div class="descrizione">
             <h2>L'emancipazione Femminile e le associazioni mafiose </h2>
@@ -143,14 +143,79 @@
     }
 
 
-    #libera{
-        width: 500px;
-        height: 200px;
+
+    }
+
+
+    @media(max-width:480px){
+
+        .article{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4%;
+            
+            
+            
+        }
+
+
+
+
+        #IMG3{
+            
+            height: 400px;
+        }
+
+        .box > iframe{
+            width: 100%;
+            margin: auto;
+        }
+
+
+        .article > .box{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
         margin: auto;
-        border-radius: 20px;
+
+        }
+
+
+
+
+
+
+        .box > .descrizione{
+        text-align: justify;
+
+        font-size: 26px;
+        width: 90%;
+        margin: auto;
+        }
+
+        .box > img{
+        width: 100%;
+        height: 340px;
+        border-radius: 10px;
+        margin: auto;
+
+        }
+
+        h1{
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
         
+        }
+
+        hr{
+        width: 90%;
+
+        border: 1px solid black;
+        }
+
     }
-    }
+
+    
 
 
     
