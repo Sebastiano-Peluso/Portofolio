@@ -52,7 +52,6 @@
                 {/if}
             </button> -->
             <div class="item">
-
                 <a href="/ChiSono">
                     <span class="material-symbols-outlined">
                     account_circle
@@ -61,7 +60,41 @@
                 </a>
             </div>
     </ul>
+</div>
 
+
+<div class="nav2">
+    <ul>
+        <div class="item">
+            <a href="/">
+            <span class="material-symbols-outlined">home</span>
+            </a>
+        </div>
+        <div class="item">
+            <div class="center">
+                <div class="option"><a href="/2020-21/">2020/21</a></div>
+                <div class="option"><a href="/2021-22/">2021/22</a></div>
+                <div class="option"><a href="/2022-23/">2022/23</a></div>
+                <div class="option"><a href="/2023-24/">2023/24</a></div>
+            </div>
+        </div>
+            <!--<button class="item dropdown" on:click={change}>I miei progetti
+                {#if open == false}
+                    <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+                {:else}
+                    <span class="material-symbols-outlined">
+                    expand_Less
+                    </span>
+                {/if}
+            </button> -->
+            <div class="item">
+                <a href="/ChiSono">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </a>
+            </div>
+    </ul>
 </div>
 
 <!-- {#if open }
@@ -94,6 +127,10 @@
         column-gap: 10px;
         
         
+    }
+
+    .nav2{
+        display: none;
     }
 
 /*     .dettagli{
@@ -247,10 +284,6 @@
         
     }
 
-    .center{
-        
-    }
-
     .center > .option{
         display: flex;
         flex-direction: column;
@@ -266,34 +299,48 @@
         color: orangered;
     }
 
+    .item > a:hover{
+        color: orangered;
+    }
+
 
 
     .nav{
+        display: none;
         position: sticky;
         top: 0;
         background-color: #023e7d;
     }
 
+    .nav2{
+        position: sticky;
+        top: 0;
+        background-color: #023e7d;
+    }
+
+    .item > a > .material-symbols-outlined{
+        font-size: 8vh;
+    }
+
     ul{
         display: flex;
         flex-direction: row;
-        list-style: none;
-        justify-content: space-between;
+        
+        justify-content: space-around;
         column-gap: 10px;
-        margin: 14px;
+        
     }
 
     ul > .item{
         
-        padding: 8px;
+        padding: 4px;
         border-radius: 6px;
         font-size: 15px;
         text-align: center;
-        
         background-color: white;
-        
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
         
     }

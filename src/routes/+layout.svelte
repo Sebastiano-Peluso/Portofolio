@@ -5,12 +5,16 @@
 
     
 
-    let VERSION_SOFTWARE = " 0.1.8";
+    let VERSION_SOFTWARE = " 0.1.9";
     
 
     
 
 </script>
+
+<svelte:head>
+    <meta name="theme-color" content="#023e7d" />
+</svelte:head>
 
 <div class="app">
 
