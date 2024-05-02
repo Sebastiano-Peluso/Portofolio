@@ -4,6 +4,8 @@
 
 import accessoAabusivo from '$lib/img/accesso-a-abusivo.png';
 
+import codicefiscale from '$lib/img/calcolo-codice.webp';
+
 
 </script>
 
@@ -50,6 +52,21 @@ import accessoAabusivo from '$lib/img/accesso-a-abusivo.png';
         </div>
 
     </div>
+
+    <hr>
+
+    <div id="" class="box">
+
+        <img src={codicefiscale} alt="">
+
+        <div class="descrizione">
+            <p>Con la Professoressa di Arruzza Emanuela nella materia informatica abbiamo creato un programma che calcola il codice fiscale programmato in C#.</p>
+            <p>Studiando come viene composto e come calcolare le sue varie parti.</p>
+        </div>
+
+    </div>
+
+
     
 
 </div>

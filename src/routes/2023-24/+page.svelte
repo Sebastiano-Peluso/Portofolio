@@ -38,10 +38,25 @@
     <hr>
 
     <div id="boxRev" class="box">
+        
+        
+        <div class="descrizione">
+            <h2>I campi di concentramento giapponesi e i campi USA per i giapponesi </h2>
+            <p>...</p> 
+        </div>
 
-
+        
 
     </div>
+
+    <div id="video" class="box">
+        <iframe height="415" src="https://www.youtube.com/embed/uXQVgp7g0Xk?si=5_Ur7D52GIeJeu5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe height="415" src="https://www.youtube.com/embed/2CMOupbiZ58?si=vAgNB61xTyivshH_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe  height="415" src="https://www.youtube.com/embed/6yXNjIq50Dw?si=LHSegktvMTTg4JuC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe  height="415" src="https://www.youtube.com/embed/SKOP830ETKk?si=IXgukCya1PsFDAoa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <hr>
     
 
 </div>
@@ -84,6 +99,14 @@
         
     }
 
+    .article > #video{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        
+    }
+
 
     
 
@@ -108,6 +131,11 @@
         color: orangered;
         text-decoration: none;
     }
+
+    .box > iframe{
+            width: 100%;
+            margin: auto;
+        }
 
     .box > img{
         width: 600px;
@@ -146,6 +174,13 @@
             width: 100%;
             margin: auto;
         }
+
+        .article > #video{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+    }
 
 
         .article > .box{
