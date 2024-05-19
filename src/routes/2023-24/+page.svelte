@@ -202,8 +202,13 @@
             
         }
 
+        .descrizione > p > a{
+        color: orangered;
+        text-decoration: none;
+        }
+
         
-        .article > .boxTesto{
+        .article > #boxTesto{
                 width: 80%;
                 margin: auto;
                 text-align: justify;

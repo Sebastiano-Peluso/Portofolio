@@ -211,11 +211,16 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
         }
 
         .article > .boxTesto{
-                width: 80%;
-                margin: auto;
-                text-align: justify;
-                font-size: 26px;
-            }
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+            font-size: 26px;
+        }
+
+        .descrizione > p > a{
+        color: orangered;
+        text-decoration: none;
+        }
 
 
 

@@ -149,14 +149,19 @@
 
     @media(max-width:480px){
 
-        .article{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 4%;
-            
-            
-            
-        }
+    .article{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4%;
+        
+        
+        
+    }
+
+    .descrizione > p > a{
+    color: orangered;
+    text-decoration: none;
+    }
 
 
 
