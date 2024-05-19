@@ -9,6 +9,10 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
 
 </script>
 
+<svelte:head>
+    <title>2022/23</title>
+</svelte:head>
+
 <h1>2022/23</h1>
 
 <hr>
@@ -46,12 +50,37 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
         </iframe>
 
         <div class="descrizione">
-            <p>Con la Professoressa di Italiano dopo aver concluso il percorso di Agende Rosse, abbiamo ascoltato la testimonianza del Sign. Ferdinando Domè.</p>
+            <p>Con la Professoressa di Italiano dopo aver concluso il percorso di Agende Rosse con la visione del film <a href="https://www.raiplay.it/programmi/lamafiauccidesolodestate" target="_blank" rel="noopener noreferrer">"La mafia uccide solo d'estate"</a> e dopo aver ascoltato la testimonianza del Sign. Ferdinando Domè.</p>
             <p>Che è stato figlio di una vittima innocente di Mafia "Strage di viale Lazio" che avvenuta a dicembre 1969.</p>
-            <p>In relazione al percorso Agende Rosse abbiamo fatto una presentazione su un personaggio a scelta tra quelli che lottato contro la mafia ed io ho parlato di <a target="_blank" href="https://it.wikipedia.org/wiki/Giuseppe_Fava">Giuseppe Fava</a></p>
+            <p>In relazione al percorso Agende Rosse abbiamo fatto una presentazione su un personaggio a scelta tra quelli che hanno lottato contro la mafia ed io ho parlato di <a target="_blank" href="https://it.wikipedia.org/wiki/Giuseppe_Fava">Giuseppe Fava</a></p>
         </div>
 
     </div>
+
+    <hr>
+
+    <div id="boxRev" class="box">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JjV_6RxNlyY?si=AHvWohyw5MSt4GmB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div class="descrizione">
+            <p>Inoltre sempre riguardante questo tema abbiamo potuto vedere un spettacolo teatrale presso il teatro Juvarra "Mi chiamo Rita Atria", figlia di un importante boss mafioso che quale era riuscita a scappare dalla Sicilia grazie a Paolo Borsellino. </p>
+            <p>abbiamo avuto modo di partecipare all’iniziativa “Insieme per capire” promossa dalla fondazione Amici della scuola e la Fondazione Corriere della Sera. <br> Come Ospite della giornata il Procuratore della Repubblica Nicola Gratteri. Titolo dell’incontro <br> “LA MIA LOTTA CONTRO LA ‘ NDRANGHETA.”</p>
+            <p>Come ultimo incontro Gratteri ha raccontato la sua esperienza professionale e di vita che lo costringono a vivere sotto scorta da vent’anni</p>
+        </div>
+
+    </div>
+
+    <div id="" class="boxTesto">
+        <div class="descrizione">
+            <p>Durante questo anno affrontanto il tema della pena di morte nel corso del tempo dal passato fino ai tempi di oggi, leggendo il romanzo di Victor Hugo <a href="https://www.amazon.it/Lultimo-giorno-condannato-Victor-Hugo/dp/8807902494" target="_blank" rel="noopener noreferrer">"L'ultimo giorno di un condannato a morte"</a></p>
+            <p>abbiamo anche parlato anche degli Anni di Piombio che è stato un periodo  tra 1960 e il 1980 dove in Italia in questi anni era presente un terrorismo di tipo politico.</p>
+            <p>A maggio abbiamo incontrato la scrittrice Benedetta Tobagi che è figlia di Walter Tobagi, un giornalista che è stato assasinato dalle brigate rosse in particolare dalla <a href="https://it.wikipedia.org/wiki/Brigata_XXVIII_marzo" target="_blank" rel="noopener noreferrer">Brigata XXVII marzo</a>.<br>
+                Prima dell'incontro con l'autrice del abbiamo letto il suo libro <a href="https://www.amazon.it/batte-forte-cuore-Storia-padre/dp/8806207806" target="_blank" rel="noopener noreferrer">"Come mi batte forte il tuo cuore"</a>. </p>
+        </div>
+
+    </div>
+
 
     <hr>
 
@@ -60,7 +89,7 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
         <img src={codicefiscale} alt="">
 
         <div class="descrizione">
-            <p>Con la Professoressa di Arruzza Emanuela nella materia informatica abbiamo creato un programma che calcola il codice fiscale programmato in C#.</p>
+            <p>Con la Professoressa Arruzza Emanuela nella materia informatica abbiamo creato un programma che calcola il codice fiscale programmato in C#.</p>
             <p>Studiando come viene composto e come calcolare le sue varie parti.</p>
         </div>
 
@@ -102,6 +131,14 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
             .box > img{
                 width: 46%;
                 border-radius: 20px;
+            }
+
+            .article > .boxTesto{
+                width: 70%;
+                margin: auto;
+                text-align: justify;
+                
+                font-size: 26px;
             }
 
 
@@ -173,14 +210,18 @@ import codicefiscale from '$lib/img/calcolo-codice.webp';
 
         }
 
-
+        .article > .boxTesto{
+                width: 80%;
+                margin: auto;
+                text-align: justify;
+                font-size: 26px;
+            }
 
 
 
 
         .box > .descrizione{
         text-align: justify;
-
         font-size: 26px;
         width: 90%;
         margin: auto;

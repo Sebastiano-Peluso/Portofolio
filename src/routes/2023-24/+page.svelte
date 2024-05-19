@@ -7,6 +7,10 @@
 
 </script>
 
+<svelte:head>
+    <title>2023/24</title>
+</svelte:head>
+
 <h1>2023/24</h1>
 
 <hr>
@@ -57,6 +61,21 @@
     </div>
 
     <hr>
+
+    
+    <div id="boxTesto" class="descrizione">
+        <p>Abbiamo affrontanto il tema sulla condizione manicomiale prima della legge Basaglia.<br>
+            grazie alla lettura del libro <a href="https://www.amazon.it/Laltra-verit%C3%A0-Diario-una-diversa/dp/8817065358" target="_blank" rel="noopener noreferrer">"L'altra verità"</a>. Libro che è tratto dalla esperienza in prima persona della poetessa Alda Merini quando era rinchiusa nel manicomio.
+        </p>
+    </div>
+
+    <div id="boxTesto" class="descrizione">
+        <p>Durante questo anno abbiamo trattato la situazione carceraria italiana. Dove io sono andato a vedere un spettacolo teatrale
+            tenuto dai stessi detenuti presso la "casa circondaria Lorusso e Cotugno di Torino". <br>
+            Successivamente abbiamo incontrato l'ex direttrice del carcere di Torino Cosima Buccoliero e la scrittrice Serena Uccello autrici del libro che abbiamo letto <a href="https://www.amazon.it/Senza-sbarre-Storia-carcere-aperto-ebook/dp/B09XQMLK84" target="_blank" rel="noopener noreferrer">"Senza Sbarre"</a>
+        </p>
+    </div>
+    
     
 
 </div>
@@ -89,6 +108,14 @@
             flex-direction: row-reverse;
         }
 
+        
+        .article > #boxTesto{
+                width: 70%;
+                margin: auto;
+                text-align: justify;
+                font-size: 26px;
+            }
+
 
     .article > .box{
         display: flex;
@@ -106,6 +133,11 @@
         row-gap: 10px;
         
     }
+
+    .descrizione > p > a{
+            color: orangered;
+        text-decoration: none;
+        }
 
 
     
@@ -169,6 +201,14 @@
             
             
         }
+
+        
+        .article > .boxTesto{
+                width: 80%;
+                margin: auto;
+                text-align: justify;
+                font-size: 26px;
+            }
 
         .box > iframe{
             width: 100%;

@@ -5,7 +5,7 @@
 
     
 
-    let VERSION_SOFTWARE = " 0.2.1";
+    let VERSION_SOFTWARE = " 0.2.4";
     
 
     

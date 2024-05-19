@@ -3,6 +3,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Home</title>
+</svelte:head>
+
     <div class="article">
         <h1 id="title">Educazione Civica</h1>
 
