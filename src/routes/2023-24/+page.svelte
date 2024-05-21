@@ -46,7 +46,11 @@
         
         <div class="descrizione">
             <h2>I campi di concentramento giapponesi e i campi USA per i giapponesi </h2>
-            <p>...</p> 
+            <p>I campi di concentramento giapponesi sono un capitolo oscuro della storia, spesso meno noto rispetto ai campi di concentramento della Germania nazista. 
+                Durante la Seconda Guerra Mondiale, gli Stati Uniti detennero cittadini di origine giapponese in questi campi. Questa decisione fu controversa e ha lasciato un segno indelebile nella memoria storica.
+                </p>
+                <p>Inoltre, i crimini di guerra giapponesi durante la guerra, soprattutto contro civili e prigionieri di guerra, sono stati oggetto di dibattito e condanna.</p>
+                <p>Un esempio particolarmente per esempio l’Unità 731, un campo di concentramento giapponese dove furono condotti esperimenti disumani su prigionieri alleati e cinesi. </p>
         </div>
 
         
