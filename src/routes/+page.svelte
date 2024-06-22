@@ -21,18 +21,12 @@
         <div class="box">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQeocC7g_f_EzOiTnmm9GVMNa0C1NTnlJOeiOuNedClldj74Q-ZetjU9yyASIK_WZ7NE_hkLuHnBy3i/embed?start=true&loop=true&delayms=3000" 
             frameborder="0" 
-            width="580" 
+            width="680" 
             height="440" 
             allowfullscreen="true" 
             mozallowfullscreen="true" 
             webkitallowfullscreen="true">
             </iframe>
-
-            <div class="descrizione">
-                <h2>Argomento trattato con la docente Giannatasio Maura</h2>
-                <p>Ho raccolto tutti gli argomenti fatti con la Professoressa Muara Giannatasio.</p>
-                <p>In particolare come ultimo argomento io come persona che ha lottato contro la mafia ho parlato di <a target="_blank" href="https://it.wikipedia.org/wiki/Giuseppe_Fava">Giuseppe Fava</a></p>
-            </div>
             
         </div>
 
